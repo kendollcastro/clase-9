@@ -7,14 +7,13 @@
     background-color: red;
     height: 100px;
 }
-
 #top{
     background-color: yellow;
     height: 500px;
     width: 250px;
     float: left;
 
-}
+
 
 #clearfix::after{
     content: "";
