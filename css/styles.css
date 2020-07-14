@@ -20,6 +20,14 @@
     float: left;
     position: relative;
 }
+.right{
+    background-color: blue;
+    color: white;
+    height: 500px;
+    width: 250px;
+    float: right;
+    text-align: right;
+}
 #clearfix::after{
     content: "";
     clear: both;
