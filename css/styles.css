@@ -1,0 +1,23 @@
+.wrapper{
+    width: 1000px;
+    height: 800px;
+    margin: 0 auto;
+}
+.header{
+    background-color: red;
+    height: 100px;
+}
+
+#top{
+    background-color: yellow;
+    height: 500px;
+    width: 250px;
+    float: left;
+
+}
+
+#clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
