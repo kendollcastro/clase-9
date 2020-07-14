@@ -12,11 +12,21 @@
     height: 500px;
     width: 250px;
     float: left;
-
-
-
+}
+#bottom{
+    background-color: fuchsia;
+    height: 500px;
+    width: 250px;
+    float: left;
+    position: relative;
+}
 #clearfix::after{
     content: "";
     clear: both;
     display: table;
+}
+.elem-position{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
 }
