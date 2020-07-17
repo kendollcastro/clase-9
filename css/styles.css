@@ -20,7 +20,7 @@
     float: left;
     position: relative;
 }
-.right{
+#right{
     background-color: blue;
     color: white;
     height: 500px;
@@ -28,6 +28,24 @@
     float: right;
     text-align: right;
 }
+
+#izquierda{
+    background-color: green;
+    color: black;
+    height: 500px;
+    width: 250px;
+    float: right;
+    position: relative;
+    text-align: left;
+}
+
+#skyblue{
+    background-color: skyblue;
+    height: 300px;
+    width: 500px;
+    float: left;
+}
+
 #clearfix::after{
     content: "";
     clear: both;
