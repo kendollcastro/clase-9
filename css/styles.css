@@ -45,6 +45,18 @@
     width: 500px;
     float: left;
 }
+#gray{
+    background-color: gray;
+    height: 300px;
+    width: 500px;
+    float: right;
+}
+#footer{
+    background-color: red;
+    width: 1000px;
+    float: left;
+    height: 50px;
+}
 
 #clearfix::after{
     content: "";
